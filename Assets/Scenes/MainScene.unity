@@ -4004,9 +4004,9 @@ MonoBehaviour:
   Distance: 14
   HorizontalSpeed: 5
   VerticalSpeed: 5
-  IsEnabled: 1
   CurrentX: 0
   CurrentY: 0
+  IsEnabled: 1
 --- !u!1 &1086547491
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,6 +4825,8 @@ MonoBehaviour:
   GridWidth: 0
   GridDepth: 0
   GridHeight: 0
+  FallSpeedMultiplier: 1
+  FastFallMultiplier: 10
   MatchState: 0
   Level: 1
   Score: 0
@@ -4833,8 +4835,6 @@ MonoBehaviour:
   BaseScorePerClear: 100
   LayersCleared: 0
   CurrentFallTimer: 0
-  FallSpeedMultiplier: 1
-  FastFallMultiplier: 10
 --- !u!1 &1440048609
 GameObject:
   m_ObjectHideFlags: 0
